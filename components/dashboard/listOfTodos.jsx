@@ -45,7 +45,7 @@ export default function ListOfTodos({handleEdit}) {
                       className={`inline-block rounded-full px-2 py-0.5 text-xs font-medium ${priorityStyles[todo.priority] || priorityStyles.low
                         }`}
                     >
-                      {todo.priority || "low"}
+                      Priority {todo.priority || "low"}
                     </span>
                     <span
                       className={`inline-block rounded-full px-2 py-0.5 text-xs font-medium ${statusStyles[todo.completed] || statusStyles["Not Completed"]
