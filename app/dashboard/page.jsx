@@ -103,9 +103,9 @@ export default function Dashboard() {
               onChange={(e) => setForm({ ...form, priority: e.target.value })}
               className="rounded-lg border border-slate-300 px-3 py-2 text-sm"
             >
-              <option value="low">Low</option>
-              <option value="medium">Medium</option>
-              <option value="high">High</option>
+              <option value="low">Priority Low</option>
+              <option value="medium">Priority Medium</option>
+              <option value="high">Priority High</option>
             </select>
             <select
               value={form.completed}

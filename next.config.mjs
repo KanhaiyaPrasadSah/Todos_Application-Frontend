@@ -5,11 +5,11 @@ const nextConfig = {
     return [
       {
         source: '/api/auth/:path*',
-        destination: 'https://todo-application-backend-sable.vercel.app/api/auth/:path*',
+        destination: 'https://todo-application-backend-1-2xi4.onrender.com/api/auth/:path*',
       },
       {
         source: '/api/todos/:path*',
-        destination: 'https://todo-application-backend-sable.vercel.app/api/todos/:path*',
+        destination: 'https://todo-application-backend-1-2xi4.onrender.com/api/todos/:path*',
       },
 
     ];
